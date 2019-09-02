@@ -1,0 +1,51 @@
+action (GetbicycleInfo) {
+  description (자전거 보관소의 데이터를 가져옵니다. 전체 자전거 보관소 리스트 또는 주변의 자전거 보관소 리스트를 가져올 수 있습니다) 
+  type(Search)
+  
+ collect {
+    input (self) {
+      type (self.Self)
+      min (Required) max (One)
+    }
+    
+    input (near) {
+      type (Near)
+      min (Optional) max (One)
+    }
+    
+    input (where) {
+      type (Where)
+      min (Optional) max (One)
+    }
+    
+    input (addvoca) {
+      type (Addvoca)
+      min (Optional) max (One)
+    }
+    
+    
+    computed-input (point){
+      type (Point)
+      min (Optional) max (One)
+      compute{
+        if(exists(near)){
+         
+          intent{
+            goal: Point
+            route: geo.CurrentLocation
+          }         
+        }
+      }
+    }
+  }
+  
+  output (bicycle){
+    on-empty{
+      halt{
+        dialog{
+          template ("현재 주변에 검색되는 자전거 보관소가 없습니다")
+        }
+      }
+    }
+  }
+}

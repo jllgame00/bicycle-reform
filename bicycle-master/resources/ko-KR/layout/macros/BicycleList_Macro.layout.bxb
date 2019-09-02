@@ -1,0 +1,20 @@
+layout-macro-def (BicycleList) {
+  params {
+    param (bicycle) {
+      type (bicycle)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    cell-card {
+      slot2 {
+          content {
+              order (PrimarySecondary)
+              primary ("#{value(bicycle.name)}")
+              secondary ("[#{value(bicycle.location)}]")
+            }
+        }
+       
+     }
+  }
+}

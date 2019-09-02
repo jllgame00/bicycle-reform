@@ -1,0 +1,5 @@
+train (t-s3ot6u4rf5gs4dw3ssoabcfph) {
+  utterance ("[g:StoreInfo] (서울)[v:geo.LocalityName](에)[v:Addvoca:Addvocaby] 자전거 보관소 (찾아줘)[v:Where1:Whereby1]")
+  plan (dY7LCsIwEEWv1rcbF4KPheAPFPwERQRBXOjCdWzGdqQ20saIG7/dVAwq1QwZJufMkEEbw+N1rynTfqT1ORBx7G+1SmmZHNQPt+BEPj36BTeV0qhAYPx/6p6RSIMIvULLLqKUJugaNn5Iyt8+GzcUskowcHR24Vh+qZFTU3nihDOdCs2G5mw4y33H+ZVdLWZ9e3+Rb1WkjqzFidBCCWV4qKCKGupooGkZLM3D+6AluJNX3utdsbdss515AA==)
+  last-modified (1567219040112)
+}

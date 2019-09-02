@@ -1,0 +1,74 @@
+structure (bicycle_list){
+ property (ARRIVE){
+ type (ARRIVE)
+min (Optional) max (Many)
+}
+ property (restore_name){
+ type (restore_name)
+min (Optional) max (Many)
+}
+ property (restore_RNA){
+ type (restore_RNA)
+min (Optional) max (Many)
+}
+ property (restore_LA){
+ type (restore_LA)
+min (Optional) max (Many)
+}
+ property (Latitude123){
+ type (Latitude123)
+min (Optional) max (Many)
+}
+ property (Longtitude123){
+ type (Longtitude123)
+min (Optional) max (Many)
+}
+ property (restore_num){
+ type (restore_num)
+min (Optional) max (Many)
+}
+ property (install_year){
+ type (install_year)
+min (Optional) max (Many)
+}
+ property (install_form){
+ type (install_form)
+min (Optional) max (Many)
+}
+ property (CYM_yn){
+ type (CYM_yn)
+min (Optional) max (Many)
+}
+ property (air_yn){
+ type (air_yn)
+min (Optional) max (Many)
+}
+ property (air_form){
+ type (air_form)
+min (Optional) max (Many)
+}
+ property (repair_yn){
+ type (repair_yn)
+min (Optional) max (Many)
+}
+ property (MI_p_num){
+ type (MI_p_num)
+min (Optional) max (Many)
+}
+ property (MI_name){
+ type (MI_name)
+min (Optional) max (Many)
+}
+ property (data_date){
+ type (data_date)
+min (Optional) max (Many)
+}
+ property (PA_code){
+ type (PA_code)
+min (Optional) max (Many)
+}
+ property (PA_name){
+ type (PA_name)
+min (Optional) max (Many)
+}
+}

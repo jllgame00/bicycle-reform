@@ -1,0 +1,5 @@
+train (t-n3cecmmhjd17bpe4ziqby24sb) {
+  utterance ("[g:StoreInfo] (근처)[v:Near:Nearby](에 있는)[v:Addvoca:Addvocaby] 자전거 보관소 (찾아줘)[v:Where1:Whereby1]")
+  plan (Y2BjUChJLS4xNtRLykyuTM5JjS8CcvOLUvWCQaRnXlo+ThVumXkpYFUMcjhUOKaklOUnJzKoEzKhrjg1sSg5g0Eah0I/oDSDLA7J8IzUolRDBlYGRgYmBmYGFiCLAciGQQRgAWImiDwA)
+  last-modified (1567227387561)
+}

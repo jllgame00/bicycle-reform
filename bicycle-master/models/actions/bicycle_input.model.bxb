@@ -1,0 +1,8 @@
+action(bicycle_input) {
+  collect{
+    
+  }
+ description (__DESCRIPTION__)
+ type(Constructor)
+ output(bicycle_list)
+}

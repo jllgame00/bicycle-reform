@@ -1,0 +1,12 @@
+  hints{
+    uncategorized{
+      utterance(자전거 보관소 알려줘)
+      utterance(서울 자전거 보관소 어딨어)
+      utterance(서울 자전거 보관소)
+      utterance(주변 자전거 보관소 찾아줘)
+      utterance(주변 자전거 보관소 알려줘)
+      utterance(자전거 보관소 어디 있어)
+      utterance(주변 자전거 보관소 어디 있어)
+      utterance(자전거 보관소 어딨어)
+    }
+  }

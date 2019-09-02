@@ -1,0 +1,5 @@
+train (t-h1li6guypag7bn8jl6p9y0v4l) {
+  utterance ("[g:bicycle] 자전거 보관소 (찾아줘)[v:Where:Whereby]")
+  plan (Y2BhkMgqTypJLS7RyygpKUhOzMnRS8pMrkzOSWWQx5BxTy2BSnrmpeUziGEoCM9ILUpl4C3LLNMrTs1J0wsGEgzMDIwMTECSAUiDIAQwQTAA)
+  last-modified (1567219305736)
+}
